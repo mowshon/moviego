@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.idea/
+*.mp4
+*.mp3
+*.png
+
+/*/*.mp4
+/*/*.mp3
+/*/*.png
