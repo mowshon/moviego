@@ -1,4 +1,4 @@
-module moviego
+module github.com/mowshon/moviego
 
 go 1.18
 
