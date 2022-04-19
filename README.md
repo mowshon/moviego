@@ -1,6 +1,12 @@
-## MovieGo 📽
+## 📽 MovieGo - Video Editing in Golang
 
-MovieGo is a Golang library for video editing. The library is designed for fast processing of routine tasks related to video editing.
+**MovieGo** is a Golang library for video editing. The library is designed for fast processing of routine tasks related to video editing. The main core of the project is the [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) package, which simplifies working with the **ffmpeg** library.
+
+### ⬇️ Instalation
+
+```bash
+go get github.com/mowshon/moviego
+```
 
 ### 🎥 Resize video in Golang
 
