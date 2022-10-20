@@ -183,11 +183,12 @@ func Concat(videos []Video) (Video, error) {
 
     var lastExtension string
     for num, video := range videos {
+        lastExtension = video.extension
+        
         if video.hasModified == false {
             videoParts += fmt.Sprintf("file '%s'\n", video.filePath)
         } else {
             file, tempFileErr := ioutil.TempFile(tempFolder, fmt.Sprintf("video-%d-*.%s", num, video.extension))
-            lastExtension = video.extension
 
             if tempFileErr != nil {
                 return Video{}, tempFileErr
