@@ -294,7 +294,13 @@ func Load(fileName string) (Video, error) {
     }
 
     abs, absError := filepath.Abs(fileName)
-    videoProbe, _ := ffmpeg.Probe(abs)
+    
+    videoProbe, videoProbeError := ffmpeg.Probe(abs)
+	
+    if videoProbeError != nil {
+       log.Printf("Error: %v", err)
+       return Video{}, fmt.Errorf("fatal error: %w", err)
+    }
 
     if absError != nil {
         return Video{}, absError
