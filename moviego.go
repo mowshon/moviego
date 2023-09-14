@@ -282,6 +282,22 @@ func (V Video) GetFilename() string {
     return V.filePath
 }
 
+func (V Video) GetWidth() int64 {
+    return V.width
+}
+
+func (V Video) GetHeight() int64 {
+    return V.height
+}
+
+func (V Video) GetDuration() float64 {
+    return V.duration
+}
+
+func (V Video) GetExtension() string {
+    return V.extension
+}
+
 func Load(fileName string) (Video, error) {
     file, err := os.Stat(fileName)
     if errors.Is(err, os.ErrNotExist) && !file.IsDir() {
