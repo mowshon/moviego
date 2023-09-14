@@ -1,6 +1,6 @@
 module github.com/mowshon/moviego
 
-go 1.18
+go 1.20
 
 require (
 	github.com/tidwall/gjson v1.14.0
