@@ -12,6 +12,8 @@ import (
 	ffmpeg "github.com/u2takey/ffmpeg-go"
 )
 
+// ffmpeg -i test_in.mp4 -f hls -hls_time 3 test_out.m3u8
+
 type Video struct {
 	filePath    string
 	width       int64
@@ -85,6 +87,13 @@ func (V Video) ResizeByWidth(requiredWidth int64) Video {
 	V.width = requiredWidth
 	V.hasModified = true
 
+	return V
+}
+
+func (V Video) Hls() Video {
+	V.addKwArgs("f", "hls")
+	V.addKwArgs("hls_time", "3")
+	V.hasModified = true
 	return V
 }
 
