@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/moviego/moviego"><img src="https://pkg.go.dev/badge/github.com/moviego/moviego.svg" alt="Go Reference"></a>
-  <a href="https://goreportcard.com/report/github.com/moviego/moviego"><img src="https://goreportcard.com/badge/github.com/moviego/moviego" alt="Go Report Card"></a>
+  <a href="https://pkg.go.dev/github.com/mowshon/moviego"><img src="https://pkg.go.dev/badge/github.com/mowshon/moviego.svg" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/mowshon/moviego"><img src="https://goreportcard.com/badge/github.com/mowshon/moviego" alt="Go Report Card"></a>
   <a href="https://github.com/mowshon/moviego"><img src="https://img.shields.io/badge/github-mowshon%2Fmoviego-181717?logo=github" alt="GitHub"></a>
   <a href="#license"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
 </p>
@@ -107,11 +107,11 @@ export MGO_FFPROBE=/opt/ffmpeg/bin/ffprobe
 ## Install
 
 ```sh
-go get github.com/moviego/moviego
+go get github.com/mowshon/moviego
 ```
 
 ```go
-import mgo "github.com/moviego/moviego"
+import mgo "github.com/mowshon/moviego"
 ```
 
 The `mgo` alias is the convention used throughout the docs and examples — it is
@@ -132,7 +132,7 @@ import (
 	"log"
 	"time"
 
-	mgo "github.com/moviego/moviego"
+	mgo "github.com/mowshon/moviego"
 )
 
 func main() {
@@ -333,7 +333,7 @@ Apply effects with a **named method** for the common one-liners, or `.Fx(effect.
 for full control of every field:
 
 ```go
-import "github.com/moviego/moviego/effect"
+import "github.com/mowshon/moviego/effect"
 
 graded := clip.
 	Brightness(0.05).
@@ -450,7 +450,7 @@ v := mgo.NewSequence().
 Or one uniform transition between every clip:
 
 ```go
-import "github.com/moviego/moviego/transition"
+import "github.com/mowshon/moviego/transition"
 
 v := mgo.ConcatWith(mgo.ConcatOptions{
 	Transition: transition.CrossFade{},
@@ -643,7 +643,7 @@ model and each carries focused docs:
 
 | Package | What it is | Docs |
 | --- | --- | --- |
-| `mgo` (root) | Fluent `Video`/`Audio` handles, constructors, export | [pkg.go.dev](https://pkg.go.dev/github.com/moviego/moviego) |
+| `mgo` (root) | Fluent `Video`/`Audio` handles, constructors, export | [pkg.go.dev](https://pkg.go.dev/github.com/mowshon/moviego) |
 | `effect` | Effect catalog + `PixelFn` extension hook | [effect/README.md](effect/README.md) |
 | `transition` | Transition system + custom transitions | [transition/README.md](transition/README.md) |
 | `keyframe` | Property animation & time-remapping engine | [keyframe/README.md](keyframe/README.md) |
