@@ -77,10 +77,6 @@ mgo.WriteVideo(ctx, out, "out.mp4", mgo.ExportOptions{})
 | 🎯 **Predictable** | Rational `Rate` (never `float64` fps), exact frame timing, bounded caches, and a `parallel == sequential` equivalence guarantee enforced in CI under `-race`. |
 | 🧩 **Small surface** | Explicit graph nodes instead of nested closures; named methods and option structs instead of operator overloading. |
 
-**Guiding rule:** *MoviePy is the editing model; Go provides the execution model.*
-Output is **correct and visually equivalent**, not byte-identical to MoviePy —
-every deliberate divergence is listed in [`docs/compatibility.md`](docs/compatibility.md).
-
 ---
 
 ## Requirements
