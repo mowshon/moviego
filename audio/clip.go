@@ -3,7 +3,7 @@ package audio
 import (
 	"context"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // AudioClip is the chunk-based audio contract. SamplesInto fills a caller-owned

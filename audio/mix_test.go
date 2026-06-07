@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 const sr = 48000

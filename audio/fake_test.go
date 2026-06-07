@@ -3,7 +3,7 @@ package audio_test
 import (
 	"context"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // fakeClip is a synthetic, FFmpeg-free AudioClip whose sample at clip-local

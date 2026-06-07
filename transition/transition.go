@@ -1,6 +1,6 @@
 package transition
 
-import "github.com/moviego/moviego/clip"
+import "github.com/mowshon/moviego/clip"
 
 // Transition produces the frames shown while an outgoing clip hands over to an
 // incoming clip. Frame is a pure function of progress and the two source frames

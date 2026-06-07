@@ -1,8 +1,8 @@
 package audiofx
 
 import (
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 // MultiplyVolume scales an audio clip's amplitude by a constant factor (0.5 =

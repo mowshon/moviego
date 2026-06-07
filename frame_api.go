@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
+	"github.com/mowshon/moviego/video"
 )
 
 // ExtractFrame decodes a single frame of the file at path at time t and returns

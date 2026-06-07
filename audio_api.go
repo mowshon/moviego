@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/moviego/moviego/audio"
-	audiofx "github.com/moviego/moviego/audio/fx"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	audiofx "github.com/mowshon/moviego/audio/fx"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/video"
 )
 
 // Audio is the facade handle for an audio clip. Its methods build new graph

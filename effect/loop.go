@@ -3,7 +3,7 @@ package effect
 import (
 	"errors"
 
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/video"
 )
 
 // ErrInvalidLoopCount reports a loop count below 1, which would silently yield a

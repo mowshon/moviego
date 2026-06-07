@@ -1,6 +1,6 @@
 package transition
 
-import "github.com/moviego/moviego/clip"
+import "github.com/mowshon/moviego/clip"
 
 // Push slides B in while pushing A out the far side, both moving together in
 // Dir. The zero value pushes left-to-right. The alpha sidecar is pushed

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 // ramp is a source whose sample value equals its frame index, so a remap is

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // restartThreshold is the forward seek distance (in frames) beyond which the

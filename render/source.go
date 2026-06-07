@@ -6,9 +6,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
-	videoio "github.com/moviego/moviego/video/io"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
+	videoio "github.com/mowshon/moviego/video/io"
 )
 
 // sourceProvider owns one sequential decoder per distinct file source and

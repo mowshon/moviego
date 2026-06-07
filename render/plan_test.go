@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/composite"
-	"github.com/moviego/moviego/transition"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/composite"
+	"github.com/mowshon/moviego/transition"
+	"github.com/mowshon/moviego/video"
 )
 
 // fakeClip is a configurable leaf video clip for planner tests. It renders

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/cache"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/cache"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 var _ video.VideoClip = (*TimecodeNode)(nil)

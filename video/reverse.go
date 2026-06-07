@@ -3,8 +3,8 @@ package video
 import (
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Reverse plays inner backward: output frame i shows source frame N-1-i, where

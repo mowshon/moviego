@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/internal/genmedia"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 // settledGoroutines waits for the goroutine count to drop to at most baseline +

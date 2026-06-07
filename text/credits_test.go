@@ -3,7 +3,7 @@ package text
 import (
 	"testing"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 func TestCreditsValidation(t *testing.T) {

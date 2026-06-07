@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 func sec(s float64) clip.Time { return clip.Time(s * float64(time.Second)) }

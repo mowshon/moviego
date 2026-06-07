@@ -3,8 +3,8 @@ package render
 import (
 	"context"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 // runSequential renders the plan one frame at a time on the calling goroutine

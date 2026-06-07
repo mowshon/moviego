@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ease"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/keyframe"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/keyframe"
+	"github.com/mowshon/moviego/video"
 )
 
 // TestEffectTargetsMatchMatrix pins every effect's declared sidecar targets to

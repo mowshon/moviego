@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/internal/genmedia"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 // TestConcatFilesDemuxFastPath joins two codec/parameter-compatible clips; the

@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 func newTestSubs(t *testing.T, opts SubtitleOptions, cues ...Cue) *SubtitlesNode {

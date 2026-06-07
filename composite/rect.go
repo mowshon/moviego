@@ -1,6 +1,6 @@
 package composite
 
-import "github.com/moviego/moviego/clip"
+import "github.com/mowshon/moviego/clip"
 
 // Rect is an axis-aligned rectangle in pixel coordinates.
 type Rect struct {

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/ease"
-	"github.com/moviego/moviego/keyframe"
+	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/keyframe"
 )
 
 func TestEmptyTrack(t *testing.T) {

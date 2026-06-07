@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/internal/genmedia"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 // TestParseTime checks the facade re-export parses the documented formats.

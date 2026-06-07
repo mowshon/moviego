@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/composite"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/composite"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/video"
 )
 
 // fakeSource is a file-like leaf that advertises itself as a fusion input

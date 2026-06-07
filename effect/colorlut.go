@@ -1,8 +1,8 @@
 package effect
 
 import (
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // rgbLUT is a per-channel 8-bit lookup table. A color op whose output channel

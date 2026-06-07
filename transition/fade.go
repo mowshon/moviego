@@ -1,8 +1,8 @@
 package transition
 
 import (
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/composite/blend"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/composite/blend"
 )
 
 // FadeThroughColor fades A down to a solid color and then up into B ("fade to

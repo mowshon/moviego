@@ -3,9 +3,9 @@ package video
 import (
 	"context"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // TimeTransformNode maps output time to source time (subclip, speed, loop,

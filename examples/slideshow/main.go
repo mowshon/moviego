@@ -8,8 +8,8 @@ import (
 	"context"
 	"log"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/examples/internal/assets"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/examples/internal/assets"
 )
 
 func main() {

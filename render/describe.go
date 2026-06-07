@@ -1,8 +1,8 @@
 package render
 
 import (
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 // Report is the planner's verdict for a clip, produced without rendering. It

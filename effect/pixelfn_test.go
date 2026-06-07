@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/video"
 )
 
 // frameOf renders the clip's first frame into a fresh RGB24 buffer.

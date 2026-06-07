@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	audioio "github.com/moviego/moviego/audio/io"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	audioio "github.com/mowshon/moviego/audio/io"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // AudioFileNode is a file-backed audio source. Samples are produced by a single

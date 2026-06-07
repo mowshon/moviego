@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // ErrBadTimestamp reports a cue timestamp that does not match HH:MM:SS,mmm

@@ -9,8 +9,8 @@ package keyframe
 import (
 	"sort"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ease"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ease"
 )
 
 // Key pins a scalar value to a clip-local time.

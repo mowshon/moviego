@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 func TestFormatTimecode(t *testing.T) {

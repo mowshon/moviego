@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/internal/genmedia"
-	"github.com/moviego/moviego/render"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/render"
+	"github.com/mowshon/moviego/video"
 )
 
 func sourceFile(t *testing.T) string {

@@ -12,7 +12,7 @@ It is split into two layers:
   built on.
 - The **`mgo` facade** exposes the user-facing methods (`Animate`,
   `AnimatePosition`, `TimeRemap`, `Freeze*`) so common work needs only
-  `import mgo "github.com/moviego/moviego"`.
+  `import mgo "github.com/mowshon/moviego"`.
 
 The runnable demo lives in [`examples/keyframes`](../examples/keyframes).
 
@@ -98,7 +98,7 @@ import (
     "log"
     "time"
 
-    mgo "github.com/moviego/moviego"
+    mgo "github.com/mowshon/moviego"
 )
 
 func main() {
@@ -297,8 +297,8 @@ public and handy for custom effects or your own interpolation.
 
 ```go
 import (
-    "github.com/moviego/moviego/ease"
-    "github.com/moviego/moviego/keyframe"
+    "github.com/mowshon/moviego/ease"
+    "github.com/mowshon/moviego/keyframe"
 )
 
 track := keyframe.New([]keyframe.Key{
@@ -356,7 +356,7 @@ values driven by a `keyframe.Track`, so you can reach them through `Fx` with a
 hand-built track:
 
 ```go
-import "github.com/moviego/moviego/effect"
+import "github.com/mowshon/moviego/effect"
 
 v.Fx(effect.Opacity{Track: keyframe.New([]keyframe.Key{
     {At: 0, Val: 0}, {At: time.Second, Val: 1},
@@ -371,10 +371,10 @@ a `keyframe.Track` supply the per-frame value. The pattern is: build a
 package myfx
 
 import (
-    "github.com/moviego/moviego/clip"
-    "github.com/moviego/moviego/effect"
-    "github.com/moviego/moviego/keyframe"
-    "github.com/moviego/moviego/video"
+    "github.com/mowshon/moviego/clip"
+    "github.com/mowshon/moviego/effect"
+    "github.com/mowshon/moviego/keyframe"
+    "github.com/mowshon/moviego/video"
 )
 
 // AnimatedBrightness shifts every channel by a keyframed delta in [-1, 1].

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/moviego/moviego/audio"
-	audioio "github.com/moviego/moviego/audio/io"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	audioio "github.com/mowshon/moviego/audio/io"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 // renderAudio renders v's audio sidecar (if any) to a temp file whose codec and

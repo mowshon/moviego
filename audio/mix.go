@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // AudioMixNode sums its children's samples over a shared timeline. The output

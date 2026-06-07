@@ -1,8 +1,8 @@
 package effect
 
 import (
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 // sharpenBlurRadius is the fixed radius of the blur the unsharp mask subtracts.

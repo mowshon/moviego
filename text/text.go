@@ -10,9 +10,9 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
+	"github.com/mowshon/moviego/video"
 )
 
 // ErrCaptionSize reports a caption request without a positive width to wrap to.

@@ -3,9 +3,9 @@ package video
 import (
 	"context"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
 )
 
 // ImageNode is a static image source. It decodes its pixels once at

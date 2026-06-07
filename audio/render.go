@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	audioio "github.com/moviego/moviego/audio/io"
-	"github.com/moviego/moviego/clip"
+	audioio "github.com/mowshon/moviego/audio/io"
+	"github.com/mowshon/moviego/clip"
 )
 
 // renderChunkFrames is the sample-frame chunk size pulled per SamplesInto call.

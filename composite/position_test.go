@@ -3,7 +3,7 @@ package composite
 import (
 	"testing"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 func TestComputePosition(t *testing.T) {

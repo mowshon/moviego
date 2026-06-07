@@ -3,8 +3,8 @@ package video
 import (
 	"context"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 // audioAttachNode wraps a video clip and replaces its audio sidecar. Every video

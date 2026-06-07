@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/video"
 )
 
 // colorImage builds a static image whose every pixel is col, so a color

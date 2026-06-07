@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/video"
 )
 
 // fakeVideo is a lazy (non-static) VideoClip producing a solid fill, used to

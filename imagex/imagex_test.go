@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
 )
 
 // solidRGBA builds a w x h RGBA frame filled with r,g,b,a.

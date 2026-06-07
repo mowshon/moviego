@@ -3,8 +3,8 @@ package mgo
 import (
 	"context"
 
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/video"
 )
 
 // This file exposes the "avoid Go pixels" file-to-file fast paths.

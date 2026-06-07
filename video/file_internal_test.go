@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 // recordingAudio is a minimal AudioClip that counts Close calls.

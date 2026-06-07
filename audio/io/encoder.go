@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"strconv"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // quantClamp bounds a normalized sample before scaling, matching MoviePy's

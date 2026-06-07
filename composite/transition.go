@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/moviego/moviego/audio"
-	audiofx "github.com/moviego/moviego/audio/fx"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/composite/blend"
-	"github.com/moviego/moviego/transition"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/audio"
+	audiofx "github.com/mowshon/moviego/audio/fx"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/composite/blend"
+	"github.com/mowshon/moviego/transition"
+	"github.com/mowshon/moviego/video"
 )
 
 // Transition assembly errors.

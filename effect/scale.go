@@ -1,10 +1,10 @@
 package effect
 
 import (
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
-	"github.com/moviego/moviego/keyframe"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
+	"github.com/mowshon/moviego/keyframe"
+	"github.com/mowshon/moviego/video"
 )
 
 // Scale animates a uniform zoom about the frame center over clip-local time. The

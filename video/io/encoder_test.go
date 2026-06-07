@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 func requireFFmpeg(t *testing.T) {

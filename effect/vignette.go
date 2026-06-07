@@ -3,8 +3,8 @@ package effect
 import (
 	"math"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 // Vignette darkens the frame toward its corners. Amount is the strength at the

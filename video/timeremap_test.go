@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ease"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/video"
 )
 
 // mappedTime renders one frame at output time t and returns the source time the

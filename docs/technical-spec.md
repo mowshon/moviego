@@ -1,6 +1,6 @@
 # MovieGo — Full Technical Specification
 
-> **Module:** `github.com/moviego/moviego` · **Language:** Go 1.26 ·
+> **Module:** `github.com/mowshon/moviego` · **Language:** Go 1.26 ·
 > **External deps:** `golang.org/x/image` (+ transitive `golang.org/x/text`) ·
 > **Runtime dep:** `ffmpeg` and `ffprobe` on `PATH`.
 >

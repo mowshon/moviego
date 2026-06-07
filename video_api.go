@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/moviego/moviego/composite"
-	"github.com/moviego/moviego/effect"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/composite"
+	"github.com/mowshon/moviego/effect"
+	"github.com/mowshon/moviego/video"
 )
 
 // Video is the facade handle for a video clip. Its methods build new graph

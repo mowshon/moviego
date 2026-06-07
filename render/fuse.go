@@ -3,9 +3,9 @@ package render
 import (
 	"fmt"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/video"
 )
 
 // fuse decides whether root can be rendered as a single FFmpeg filtergraph

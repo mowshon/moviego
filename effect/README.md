@@ -22,7 +22,7 @@ tunable fields. Use it when there is no facade method, or when you need a field
 the method does not expose:
 
 ```go
-import "github.com/moviego/moviego/effect"
+import "github.com/mowshon/moviego/effect"
 
 v := clip.
     Fx(effect.Blur{Radius: 8}).

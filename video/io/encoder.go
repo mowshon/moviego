@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
 )
 
 // Default encode settings used when EncoderOptions leaves a field empty.

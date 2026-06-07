@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // TimeRemap warps inner audio onto a new timeline: output time t plays the

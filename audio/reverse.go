@@ -3,7 +3,7 @@ package audio
 import (
 	"context"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Reverse plays inner audio backward: output sample s reads source sample

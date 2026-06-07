@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // FPSSource selects which ffprobe field supplies a video stream's frame rate.

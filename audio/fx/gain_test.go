@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	audiofx "github.com/moviego/moviego/audio/fx"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	audiofx "github.com/mowshon/moviego/audio/fx"
+	"github.com/mowshon/moviego/clip"
 )
 
 const sr = 48000

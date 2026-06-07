@@ -8,7 +8,7 @@ import (
 	_ "image/png"
 	"os"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // DecodeFile reads path and decodes it into a clip.Frame. The result is RGBA

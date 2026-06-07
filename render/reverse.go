@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
-	videoio "github.com/moviego/moviego/video/io"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
+	videoio "github.com/mowshon/moviego/video/io"
 )
 
 // reverseWindowBudget caps the per-source backward cache at ~256 MiB of decoded

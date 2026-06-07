@@ -3,7 +3,7 @@ package mgo
 import (
 	"context"
 
-	"github.com/moviego/moviego/render"
+	"github.com/mowshon/moviego/render"
 )
 
 // ExportOptions controls a video export. A zero Rate uses the clip's own rate.

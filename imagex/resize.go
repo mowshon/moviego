@@ -5,7 +5,7 @@ import (
 
 	xdraw "golang.org/x/image/draw"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Resize returns a new frame of size, resampling src with the CatmullRom

@@ -6,9 +6,9 @@ import (
 	"image/color"
 	"time"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/effect"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/effect"
 )
 
 func ExampleParseTime() {

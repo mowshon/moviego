@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/video"
 )
 
 const (

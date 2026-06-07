@@ -3,8 +3,8 @@ package mgo
 import (
 	"context"
 
-	"github.com/moviego/moviego/ffmpeg"
-	videoio "github.com/moviego/moviego/video/io"
+	"github.com/mowshon/moviego/ffmpeg"
+	videoio "github.com/mowshon/moviego/video/io"
 )
 
 // ProbeOptions tunes Probe. See ffmpeg.ProbeOptions; the one knob is the frame

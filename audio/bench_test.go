@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
 )
 
 // BenchmarkAudioMix measures summing six stereo sine tracks into one 1024-frame

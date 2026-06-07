@@ -3,7 +3,7 @@ package mgo
 import (
 	"image/color"
 
-	"github.com/moviego/moviego/text"
+	"github.com/mowshon/moviego/text"
 )
 
 // TextAnim configures an entrance animation for AnimatedText. See text.TextAnim;

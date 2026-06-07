@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/moviego/moviego/render"
+import "github.com/mowshon/moviego/render"
 
 // Report is the planner's verdict for a clip, produced without rendering (the
 // chosen engine, whether fusion triggers, frame count, budget). See

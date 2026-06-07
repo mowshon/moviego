@@ -3,9 +3,9 @@ package effect
 import (
 	"errors"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
+	"github.com/mowshon/moviego/video"
 )
 
 // ErrInvalidPad reports a Pad target smaller than the source on some axis: there

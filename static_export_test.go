@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/moviego/moviego"
-	"github.com/moviego/moviego/ffmpeg"
-	"github.com/moviego/moviego/internal/genmedia"
+	mgo "github.com/mowshon/moviego"
+	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/internal/genmedia"
 )
 
 // TestFacadeColorResizeFadeExport drives a fully synthetic graph (no input

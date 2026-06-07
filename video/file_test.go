@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/internal/genmedia"
-	"github.com/moviego/moviego/video"
-	videoio "github.com/moviego/moviego/video/io"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/video"
+	videoio "github.com/mowshon/moviego/video/io"
 )
 
 func patternFile(t *testing.T) string {

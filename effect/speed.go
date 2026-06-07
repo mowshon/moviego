@@ -3,7 +3,7 @@ package effect
 import (
 	"errors"
 
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/video"
 )
 
 // ErrInvalidFactor reports a non-positive speed factor. Only forward (positive)

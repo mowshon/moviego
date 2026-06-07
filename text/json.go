@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Styles holds the optional presentation hints carried by the rich JSON form.

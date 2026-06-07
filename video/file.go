@@ -5,10 +5,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ffmpeg"
-	videoio "github.com/moviego/moviego/video/io"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ffmpeg"
+	videoio "github.com/mowshon/moviego/video/io"
 )
 
 // VideoFileNode is a file-backed video source. Its frames are produced by a

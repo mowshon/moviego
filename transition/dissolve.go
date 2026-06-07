@@ -1,6 +1,6 @@
 package transition
 
-import "github.com/moviego/moviego/clip"
+import "github.com/mowshon/moviego/clip"
 
 // Dissolve is a film-style dissolve: an ordered (Bayer) dither selects, per
 // pixel, whether to show A or B, so the blend appears as a growing stipple of B

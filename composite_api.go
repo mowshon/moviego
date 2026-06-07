@@ -1,8 +1,8 @@
 package mgo
 
 import (
-	"github.com/moviego/moviego/composite"
-	"github.com/moviego/moviego/video"
+	"github.com/mowshon/moviego/composite"
+	"github.com/mowshon/moviego/video"
 )
 
 // Position places a clip within a Composite. Build one with the keyword values

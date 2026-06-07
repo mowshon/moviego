@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/moviego/moviego"
+	mgo "github.com/mowshon/moviego"
 )
 
 // renderFrames renders v to a temp directory at 10 fps and returns how many

@@ -3,7 +3,7 @@ package video
 import (
 	"context"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Parent is implemented by graph nodes that wrap one or more child clips. The

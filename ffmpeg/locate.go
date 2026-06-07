@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/moviego/moviego/clip"
+	"github.com/mowshon/moviego/clip"
 )
 
 // Override these via the environment to pin a specific toolchain build.

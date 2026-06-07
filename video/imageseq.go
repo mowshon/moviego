@@ -5,10 +5,10 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/moviego/moviego/audio"
-	"github.com/moviego/moviego/cache"
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/imagex"
+	"github.com/mowshon/moviego/audio"
+	"github.com/mowshon/moviego/cache"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/imagex"
 )
 
 // ErrEmptySequence reports an image sequence built from no images.

@@ -3,9 +3,9 @@ package transition_test
 import (
 	"testing"
 
-	"github.com/moviego/moviego/clip"
-	"github.com/moviego/moviego/ease"
-	"github.com/moviego/moviego/transition"
+	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/transition"
 )
 
 var (

@@ -1,6 +1,6 @@
 package composite
 
-import "github.com/moviego/moviego/clip"
+import "github.com/mowshon/moviego/clip"
 
 // ComputePosition resolves a child's top-left pixel coordinate within a canvas
 // at composition time t. The result is int-truncated, matching MoviePy's

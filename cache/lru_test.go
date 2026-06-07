@@ -3,7 +3,7 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/moviego/moviego/cache"
+	"github.com/mowshon/moviego/cache"
 )
 
 func TestLRUEvictsLeastRecentlyUsed(t *testing.T) {
