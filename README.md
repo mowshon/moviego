@@ -580,6 +580,7 @@ fmt.Println(report.Engine, report.Frames, report.FusionReason)
 | `Bitrate` | Target video bitrate (e.g. `"4M"`). |
 | `PixFmt` | Output pixel format (default `yuv420p`). |
 | `Threads` | FFmpeg encoder threads (0 = FFmpeg default). |
+| `ExtraOutputArgs` | Advanced output-side FFmpeg args appended before the output path, for muxer/container flags such as HLS (`[]string{"-f", "hls", "-hls_time", "3"}`) or MP4 flags (`[]string{"-movflags", "+faststart"}`). Not for input, global, or filtergraph args. |
 | `Workers` | Render worker-pool size (0 = auto from `GOMAXPROCS`). |
 | `Progress` | Per-frame progress callbacks (`mgo.BarProgress` draws a bar). |
 | `DisableAudio`, `AudioCodec`, `AudioBitrate` | Audio mux control. |

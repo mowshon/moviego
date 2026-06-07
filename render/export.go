@@ -31,6 +31,12 @@ type ExportOptions struct {
 	Bitrate string
 	Threads int
 
+	// ExtraOutputArgs are appended to the FFmpeg command immediately before the
+	// output path. Use them for advanced output-side FFmpeg options not modeled
+	// above, such as muxer/container flags (for example: []string{"-f", "hls",
+	// "-hls_time", "3"}). They are not for input, global, or filtergraph args.
+	ExtraOutputArgs []string
+
 	// DisableAudio skips audio rendering and mux even when the clip has an audio
 	// sidecar. AudioCodec overrides the temp audio codec (default chosen from the
 	// output container); AudioBitrate sets the temp audio bitrate (e.g. "192k").
@@ -110,6 +116,7 @@ func WriteVideo(ctx context.Context, v video.VideoClip, out string, opts ExportO
 		CRF:         opts.CRF,
 		Bitrate:     opts.Bitrate,
 		Threads:     opts.Threads,
+		OutputArgs:  opts.ExtraOutputArgs,
 		AudioFile:   audioFile,
 	})
 	if err != nil {

@@ -95,6 +95,7 @@ func runFFmpegOnly(ctx context.Context, plan *Plan, out string, opts ExportOptio
 	if audioFile != "" {
 		args = append(args, "-c:a", "copy", "-shortest")
 	}
+	args = append(args, opts.ExtraOutputArgs...)
 	args = append(args, ffmpeg.SafeInputPath(out))
 
 	prog := opts.Progress

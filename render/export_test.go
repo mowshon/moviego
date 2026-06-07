@@ -5,6 +5,7 @@ import (
 	"errors"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 	"time"
 
@@ -132,6 +133,44 @@ func TestWriteVideoRejectsZeroRate(t *testing.T) {
 	}
 	if _, statErr := os.Stat(out); statErr == nil {
 		t.Error("output file created despite invalid rate")
+	}
+}
+
+func TestWriteVideoExtraOutputArgsHLS(t *testing.T) {
+	if !genmedia.Available() {
+		t.Skip("ffmpeg/ffprobe not available")
+	}
+	dir := t.TempDir()
+	out := filepath.Join(dir, "playlist.m3u8")
+	segments := filepath.Join(dir, "piece_%03d.ts")
+	c := video.NewColor(clip.Size{W: 64, H: 36}, [3]byte{20, 120, 200})
+	v := c.WithDuration(3 * time.Second).(video.VideoClip)
+
+	err := render.WriteVideo(context.Background(), v, out, render.ExportOptions{
+		Rate: clip.Rate{Num: 10, Den: 1},
+		ExtraOutputArgs: []string{
+			"-f", "hls",
+			"-hls_time", "1",
+			"-force_key_frames", "expr:gte(t,n_forced*1)",
+			"-hls_segment_filename", segments,
+		},
+	})
+	if err != nil {
+		t.Fatalf("write hls: %v", err)
+	}
+	playlist, err := os.ReadFile(out)
+	if err != nil {
+		t.Fatalf("read playlist: %v", err)
+	}
+	if !strings.Contains(string(playlist), "#EXTM3U") {
+		t.Fatalf("playlist missing HLS header:\n%s", playlist)
+	}
+	got, err := filepath.Glob(filepath.Join(dir, "piece_*.ts"))
+	if err != nil {
+		t.Fatalf("glob segments: %v", err)
+	}
+	if len(got) < 2 {
+		t.Fatalf("segments = %v, want multiple custom-named HLS segments", got)
 	}
 }
 

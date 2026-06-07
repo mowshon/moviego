@@ -104,6 +104,9 @@ type EncoderOptions struct {
 	CRF     int
 	Bitrate string
 	Threads int
+	// OutputArgs are appended immediately before the output path. They are for
+	// advanced output-side FFmpeg options that do not have dedicated fields.
+	OutputArgs []string
 	// AudioFile, when non-empty, is muxed in as a second input and stream-copied
 	// (-c:a copy) into the output. It is rendered ahead of time to a container-
 	// compatible codec, so the encode just multiplexes the elementary stream.
@@ -216,6 +219,7 @@ func OpenEncoder(ctx context.Context, out string, opts EncoderOptions) (*Encoder
 		// -shortest that audio would overrun the video tail.
 		args = append(args, "-c:a", "copy", "-shortest")
 	}
+	args = append(args, opts.OutputArgs...)
 	args = append(args, ffmpeg.SafeInputPath(out))
 	proc, err := ffmpeg.Start(ctx, ffmpeg.Spec{Path: bin, Args: args, Stdin: true})
 	if err != nil {

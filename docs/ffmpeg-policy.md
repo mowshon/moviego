@@ -50,6 +50,12 @@ masked sources remains a known gap.
   `ErrOddSize` before FFmpeg is launched, rather than as a stderr-tail error.
 - **Output rate** must be a positive rational (`Num>0`, `Den>0`); a zero rate is
   rejected before any file is created.
+- **Extra output args.** `ExportOptions.ExtraOutputArgs` is appended immediately
+  before the output path on both Go-rendered and FFmpeg-only exports. It is the
+  escape hatch for advanced output-side FFmpeg flags not modeled as typed
+  options: muxer/container flags such as `-f hls`, `-hls_time`,
+  `-hls_segment_filename`, `-movflags +faststart`, and similar output options.
+  It is not for input options, global options, or filtergraph construction.
 - **Alpha output** *(known gap)*: `yuva420p` only when both dims are even
   (libx264/nvenc); libvpx/webm adds `-auto-alt-ref 0`.
 
