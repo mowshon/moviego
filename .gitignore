@@ -1,24 +1,60 @@
-# Binaries for programs and plugins
+# Generated example outputs; not source.
+examples/output/
+examples/input/
+examples/temp/
+
+# Go build artifacts
+bin/
+dist/
+build/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-
-# Test binary, built with `go test -c`
 *.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
+# Go coverage / profiling
+coverage.out
+coverage.html
+*.cover
+*.prof
+*.pprof
+
+# Go workspace / dependency cache
+go.work
+go.work.sum
+
+# Vendored dependencies
+# Uncomment only if you do NOT want to commit vendor/
 # vendor/
 
-.idea/
-*.mp4
-*.mp3
-*.png
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
 
-/*/*.mp4
-/*/*.mp3
-/*/*.png
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
