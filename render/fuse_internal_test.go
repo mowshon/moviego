@@ -2,6 +2,8 @@ package render
 
 import (
 	"context"
+	"errors"
+	"io"
 	"strings"
 	"testing"
 	"time"
@@ -48,6 +50,32 @@ func (f *fakeSource) FilterInput(ffmpeg.FilterContext) (ffmpeg.Input, bool) {
 	return ffmpeg.Input{Name: "src.mp4"}, true
 }
 
+type progressCounter struct {
+	steps int
+}
+
+func (p *progressCounter) SetTotal(int) {}
+func (p *progressCounter) Step()        { p.steps++ }
+
+type errAfterReader struct {
+	data string
+	err  error
+}
+
+func (r *errAfterReader) Read(p []byte) (int, error) {
+	if r.data != "" {
+		n := copy(p, r.data)
+		r.data = r.data[n:]
+		return n, nil
+	}
+	if r.err != nil {
+		err := r.err
+		r.err = nil
+		return 0, err
+	}
+	return 0, io.EOF
+}
+
 func newFakeSource() *fakeSource {
 	return &fakeSource{size: clip.Size{W: 64, H: 48}, rate: clip.Rate{Num: 25, Den: 1}, dur: 4 * time.Second}
 }
@@ -87,6 +115,26 @@ func TestFuseBareSourceTranscodes(t *testing.T) {
 	}
 	if got := g.FilterComplex(); got != "[0:v]fps=30/1[v1]" {
 		t.Errorf("filter_complex = %q", got)
+	}
+}
+
+func TestReportFFmpegProgressReturnsScannerError(t *testing.T) {
+	wantErr := errors.New("progress read failed")
+	prog := &progressCounter{}
+
+	last, err := reportFFmpegProgress(&errAfterReader{
+		data: "frame=2\n",
+		err:  wantErr,
+	}, prog, 10)
+
+	if !errors.Is(err, wantErr) {
+		t.Fatalf("err = %v, want %v", err, wantErr)
+	}
+	if last != 2 {
+		t.Errorf("last = %d, want 2", last)
+	}
+	if prog.steps != 2 {
+		t.Errorf("steps = %d, want 2", prog.steps)
 	}
 }
 

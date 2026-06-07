@@ -112,10 +112,11 @@ func runFFmpegOnly(ctx context.Context, plan *Plan, out string, opts ExportOptio
 	// stdout pipe once the process exits, so the reader must finish first. The
 	// process runs to its own EOF (no stdin to close), so this never deadlocks.
 	var lastFrame int
+	var progressErr error
 	done := make(chan struct{})
 	go func() {
 		defer close(done)
-		lastFrame = reportFFmpegProgress(proc.Stdout, prog, plan.Frames)
+		lastFrame, progressErr = reportFFmpegProgress(proc.Stdout, prog, plan.Frames)
 	}()
 	<-done
 	if err := proc.Wait(); err != nil {
@@ -126,6 +127,9 @@ func runFFmpegOnly(ctx context.Context, plan *Plan, out string, opts ExportOptio
 			return ctxErr
 		}
 		return clip.Wrap("write "+out, err)
+	}
+	if progressErr != nil {
+		return clip.Wrap("read ffmpeg progress", progressErr)
 	}
 	// The scheduled count is an upper bound: a source that ends before its
 	// declared duration writes fewer frames. Mirror the Go path and re-publish
@@ -140,9 +144,9 @@ func runFFmpegOnly(ctx context.Context, plan *Plan, out string, opts ExportOptio
 // prog by the delta in the reported "frame=N" count, capped at total (the
 // scheduled frame count). It returns the last frame count seen (the frames
 // actually encoded) once the stream reaches EOF (process exit).
-func reportFFmpegProgress(r io.Reader, prog Progress, total int) int {
+func reportFFmpegProgress(r io.Reader, prog Progress, total int) (int, error) {
 	if r == nil {
-		return 0
+		return 0, nil
 	}
 	last := 0
 	sc := bufio.NewScanner(r)
@@ -162,9 +166,10 @@ func reportFFmpegProgress(r io.Reader, prog Progress, total int) int {
 			prog.Step()
 		}
 	}
+	err := sc.Err()
 	// Drain any reader remainder so the pipe is fully consumed.
 	_, _ = io.Copy(io.Discard, r)
-	return last
+	return last, err
 }
 
 // hardwareCodec maps a hardware-accel family to its H.264 encoder. It returns
