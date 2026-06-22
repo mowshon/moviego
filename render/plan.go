@@ -3,9 +3,9 @@ package render
 import (
 	"runtime"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Engine identifies which render engine the planner selected.

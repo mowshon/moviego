@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 func TestSubclipMetadata(t *testing.T) {

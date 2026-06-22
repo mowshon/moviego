@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	audiofx "github.com/mowshon/moviego/audio/fx"
+	audiofx "github.com/mowshon/moviego/v2/audio/fx"
 )
 
 // TestEqualPowerFadeInEndpoints checks the sqrt ramp starts at 0, hits ~0.707 at

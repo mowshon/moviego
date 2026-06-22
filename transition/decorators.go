@@ -1,8 +1,8 @@
 package transition
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ease"
 )
 
 // Eased remaps progress through an easing curve before calling t.Frame, so any

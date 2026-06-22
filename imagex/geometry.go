@@ -3,7 +3,7 @@ package imagex
 import (
 	"math"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // CropInto copies the dst.W x dst.H window of src whose top-left is (x, y) into

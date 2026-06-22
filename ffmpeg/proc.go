@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // stderrRingSize bounds the retained FFmpeg stderr tail.

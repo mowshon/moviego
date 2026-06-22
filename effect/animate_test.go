@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ease"
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/keyframe"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ease"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/keyframe"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 func fadeTrack() keyframe.Track {

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"math"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/cache"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ease"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/cache"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ease"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 var _ video.VideoClip = (*AnimatedTextNode)(nil)

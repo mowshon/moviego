@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/render"
-	"github.com/mowshon/moviego/video"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/render"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 func sampleClip(d mgo.Time) *mgo.Video {

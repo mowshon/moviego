@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // A realistic ffprobe JSON blob: NTSC video with a display-matrix rotation plus

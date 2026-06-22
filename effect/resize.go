@@ -3,10 +3,10 @@ package effect
 import (
 	"errors"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // ErrInvalidResize reports a Resize with no usable target: a non-positive Scale

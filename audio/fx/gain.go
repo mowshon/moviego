@@ -3,8 +3,8 @@ package audiofx
 import (
 	"context"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // gainNode wraps an AudioClip and scales every sample by gain(t), where t is

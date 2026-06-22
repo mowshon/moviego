@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/mowshon/moviego/render"
+import "github.com/mowshon/moviego/v2/render"
 
 // Progress receives per-frame export callbacks. See render.Progress. Set one on
 // ExportOptions.Progress to report rendering progress.

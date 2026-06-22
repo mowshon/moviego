@@ -3,7 +3,7 @@ package transition
 import (
 	"math"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // Iris reveals B through an expanding aperture (Out false, the zero value: B

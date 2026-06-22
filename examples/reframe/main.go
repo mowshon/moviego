@@ -10,9 +10,9 @@ import (
 	"log"
 	"os"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/examples/internal/assets"
-	"github.com/mowshon/moviego/imagex"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/examples/internal/assets"
+	"github.com/mowshon/moviego/v2/imagex"
 )
 
 func main() {

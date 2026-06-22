@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/video"
-	videoio "github.com/mowshon/moviego/video/io"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/video"
+	videoio "github.com/mowshon/moviego/v2/video/io"
 )
 
 // openSource opens a generated test clip as a file source for the provider.

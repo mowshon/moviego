@@ -1,8 +1,8 @@
 package effect
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // BlackAndWhite converts RGB frames to grayscale from Start onward. It

@@ -13,9 +13,9 @@ import (
 	"log"
 	"os"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/examples/internal/assets"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/examples/internal/assets"
 )
 
 func main() {

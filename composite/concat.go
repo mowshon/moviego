@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // ErrEmptyConcat is returned when a concatenation is built with no children.

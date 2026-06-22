@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 func TestParseJSONArrayForm(t *testing.T) {

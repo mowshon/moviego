@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 const sampleASS = `[Script Info]

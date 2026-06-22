@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // fakeClip is a deterministic VideoClip for testing the export schedule without

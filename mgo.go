@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/mowshon/moviego/clip"
+import "github.com/mowshon/moviego/v2/clip"
 
 // Re-exported core value types so callers need only import the facade.
 type (

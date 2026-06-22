@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // maxCubeSize bounds LUT_3D_SIZE so a malformed file cannot request a huge

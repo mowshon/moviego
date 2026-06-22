@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 func TestColorNodeFill(t *testing.T) {

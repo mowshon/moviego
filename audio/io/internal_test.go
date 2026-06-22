@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // q quantizes one normalized sample and returns the resulting int16.

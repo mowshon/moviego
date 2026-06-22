@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // BenchmarkResizeCropFadeChain measures rendering one frame through a

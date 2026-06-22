@@ -16,7 +16,7 @@ import (
     "image/color"
     "time"
 
-    mgo "github.com/mowshon/moviego"
+    mgo "github.com/mowshon/moviego/v2"
 )
 
 logo := mgo.NewCanvas(640, 360).

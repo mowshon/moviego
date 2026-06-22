@@ -4,10 +4,10 @@ import (
 	"context"
 	"sort"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite/blend"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite/blend"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Compile-time guarantee that a composite is a usable video clip.

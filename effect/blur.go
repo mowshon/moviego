@@ -1,9 +1,9 @@
 package effect
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Blur softens a clip by downscaling and upscaling through the CatmullRom

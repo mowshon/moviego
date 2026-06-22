@@ -1,8 +1,8 @@
 package transition
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite/blend"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite/blend"
 )
 
 // CrossFade dissolves A into B by a straight alpha blend across the whole frame

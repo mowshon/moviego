@@ -53,7 +53,7 @@ accepted.
 import (
     "time"
 
-    mgo "github.com/mowshon/moviego"
+    mgo "github.com/mowshon/moviego/v2"
 )
 
 // Zoom from 1.0x to 1.3x with a smooth S-curve.
@@ -66,7 +66,7 @@ v := src.Animate(mgo.PropScale, []mgo.Keyframe{
 ### With transitions
 
 ```go
-import "github.com/mowshon/moviego/transition"
+import "github.com/mowshon/moviego/v2/transition"
 
 // A dissolve that accelerates in, then decelerates out.
 t := transition.Eased(transition.Dissolve{}, ease.EaseInOut)
@@ -76,8 +76,8 @@ t := transition.Eased(transition.Dissolve{}, ease.EaseInOut)
 
 ```go
 import (
-    "github.com/mowshon/moviego/ease"
-    "github.com/mowshon/moviego/keyframe"
+    "github.com/mowshon/moviego/v2/ease"
+    "github.com/mowshon/moviego/v2/keyframe"
 )
 
 track := keyframe.New([]keyframe.Key{

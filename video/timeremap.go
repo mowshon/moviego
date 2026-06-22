@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ease"
 )
 
 // ErrTimeRemapPoints reports a TimeRemap call whose control points cannot define

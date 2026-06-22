@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite"
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/transition"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/transition"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // captureSink records a copy of every frame it is asked to write, keyed by

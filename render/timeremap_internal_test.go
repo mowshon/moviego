@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // openPattern decodes a short synthetic test-pattern clip, skipping when FFmpeg

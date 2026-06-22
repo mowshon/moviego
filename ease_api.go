@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/mowshon/moviego/ease"
+import "github.com/mowshon/moviego/v2/ease"
 
 // EaseFunc is an easing curve: a pure remap of normalized progress, used by
 // transitions and the keyframe/time-remap engines. See the ease package.

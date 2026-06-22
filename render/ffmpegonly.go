@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	videoio "github.com/mowshon/moviego/video/io"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	videoio "github.com/mowshon/moviego/v2/video/io"
 )
 
 // Defaults for the fused encode, matching the Go encoder so a fused export and

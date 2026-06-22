@@ -1,6 +1,6 @@
 package testmedia
 
-import "github.com/mowshon/moviego/clip"
+import "github.com/mowshon/moviego/v2/clip"
 
 // DefaultColors maps single-character codes to RGB triples, mirroring MoviePy's
 // BitmapClip palette.

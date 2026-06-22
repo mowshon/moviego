@@ -6,7 +6,7 @@ import (
 	"image/png"
 	"io"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // EncodePNG writes f to w as a PNG. RGBA frames keep their alpha; RGB24 and

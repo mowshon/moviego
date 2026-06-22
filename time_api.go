@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/mowshon/moviego/clip"
+import "github.com/mowshon/moviego/v2/clip"
 
 // ParseTime parses a timestamp into a Time. It accepts a bare number of seconds
 // ("33.5"), min:sec ("1:33.5", with comma decimals allowed), or

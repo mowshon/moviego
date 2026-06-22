@@ -3,10 +3,10 @@ package mgo
 import (
 	"image/color"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/draw"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/draw"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Paint describes how a shape is colored (fill, stroke, stroke width). See

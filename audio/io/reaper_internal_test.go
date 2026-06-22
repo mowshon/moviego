@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // TestReaperClosesRegistered checks the core wiring without FFmpeg: a decoder

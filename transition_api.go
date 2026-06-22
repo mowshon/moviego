@@ -1,8 +1,8 @@
 package mgo
 
 import (
-	"github.com/mowshon/moviego/composite"
-	"github.com/mowshon/moviego/transition"
+	"github.com/mowshon/moviego/v2/composite"
+	"github.com/mowshon/moviego/v2/transition"
 )
 
 // Transition is the one-method extension surface for the frames shown while one

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // fixture writes a 5s 64x64 testsrc clip at 30fps (150 frames) and returns a

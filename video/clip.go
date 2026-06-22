@@ -3,8 +3,8 @@ package video
 import (
 	"context"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // AccessClass classifies how a node maps output frames to source-frame reads,

@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/mowshon/moviego/ease"
+	"github.com/mowshon/moviego/v2/ease"
 )
 
 // TestEndpointsFixed pins f(0)=0 and f(1)=1 for every built-in so they compose

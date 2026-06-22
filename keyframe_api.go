@@ -3,9 +3,9 @@ package mgo
 import (
 	"errors"
 
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/keyframe"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/keyframe"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Keyframe pins a scalar property value to a clip-local time for Animate.
