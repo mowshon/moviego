@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // IterFrames renders v at its own output rate, calling fn for each frame. See

@@ -1,6 +1,6 @@
 package transition
 
-import "github.com/mowshon/moviego/clip"
+import "github.com/mowshon/moviego/v2/clip"
 
 // Slide slides B in over a stationary A, entering from the edge opposite Dir's
 // travel. The zero value slides B in from the left moving right. The alpha

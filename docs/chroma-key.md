@@ -10,7 +10,7 @@ such as hair. Implemented in `effect/chromakey.go`; behavioral tests live in
 `ChromaKey` is a `video.VideoEffect`, applied through `Fx`:
 
 ```go
-import fx "github.com/mowshon/moviego/effect"
+import fx "github.com/mowshon/moviego/v2/effect"
 
 green = green.Fx(fx.ChromaKey{
     Color:      [3]byte{87, 184, 0}, // measured screen color (defaults to pure green)

@@ -3,8 +3,8 @@ package audiofx
 import (
 	"math"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // EqualPowerFadeIn ramps an audio clip in over the first d of its local timeline

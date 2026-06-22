@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
 )
 
 // nbytes is the PCM sample width we decode to (s16le). 16-bit is enough for

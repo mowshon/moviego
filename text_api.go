@@ -1,6 +1,6 @@
 package mgo
 
-import "github.com/mowshon/moviego/text"
+import "github.com/mowshon/moviego/v2/text"
 
 // TextOptions configures a rendered text clip. See text.Options for the field
 // semantics (label vs caption mode, font, color, stroke, alignment).

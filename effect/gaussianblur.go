@@ -3,9 +3,9 @@ package effect
 import (
 	"math"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // GaussianBlur is a true Gaussian blur applied as two separable 1D passes

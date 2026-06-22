@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/image/vector"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/imagex"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/imagex"
 )
 
 // Paint describes how a shape is colored. A nil Fill skips the interior; a nil

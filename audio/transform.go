@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // ErrInvalidSpeed reports a non-positive speed factor. Only forward (positive)

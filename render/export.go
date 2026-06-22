@@ -5,10 +5,10 @@ import (
 	"errors"
 	"os"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/video"
-	videoio "github.com/mowshon/moviego/video/io"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/video"
+	videoio "github.com/mowshon/moviego/v2/video/io"
 )
 
 // ExportOptions controls a video export. A zero Rate uses the clip's own rate;

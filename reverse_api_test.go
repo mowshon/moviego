@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/render"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/render"
 )
 
 func TestReverseRunsSequential(t *testing.T) {

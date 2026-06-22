@@ -1,8 +1,8 @@
 package audiofx
 
 import (
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // FadeIn ramps an audio clip's volume linearly from 0 to 1 over the first d of

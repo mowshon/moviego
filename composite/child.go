@@ -1,8 +1,8 @@
 package composite
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // PosKeyword is a symbolic placement that overrides the numeric X/Y of a

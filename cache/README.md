@@ -15,7 +15,7 @@ or re-reading the value; the cache is never on the correctness path. This means:
 ## API
 
 ```go
-import "github.com/mowshon/moviego/cache"
+import "github.com/mowshon/moviego/v2/cache"
 
 // Create a cache with a fixed capacity.
 c := cache.NewLRU[string, *MyValue](64)

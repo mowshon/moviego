@@ -3,7 +3,7 @@ package transition
 import (
 	"math"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // slidePush composites B translated over A along dir — the shared machinery

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // sumAlpha renders the node at t and returns the total alpha coverage, a proxy

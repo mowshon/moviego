@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/mowshon/moviego/ffmpeg"
+	"github.com/mowshon/moviego/v2/ffmpeg"
 )
 
 // Available reports whether both ffmpeg and ffprobe resolve, so tests can skip

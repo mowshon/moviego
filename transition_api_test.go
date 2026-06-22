@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/transition"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/transition"
 )
 
 func colorClip(col [3]byte, d time.Duration) *mgo.Video {

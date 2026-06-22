@@ -3,9 +3,9 @@ package effect
 import (
 	"math"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // Brightness shifts every channel by Delta, a normalized offset in [-1, 1]

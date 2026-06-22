@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/image/vector"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/draw"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/draw"
 )
 
 // at returns the RGBA bytes of the pixel at (x, y) in an RGBA frame.

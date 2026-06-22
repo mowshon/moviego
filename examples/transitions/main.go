@@ -22,11 +22,11 @@ import (
 	"log"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ease"
-	"github.com/mowshon/moviego/examples/internal/assets"
-	"github.com/mowshon/moviego/transition"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ease"
+	"github.com/mowshon/moviego/v2/examples/internal/assets"
+	"github.com/mowshon/moviego/v2/transition"
 )
 
 const (

@@ -1,8 +1,8 @@
 package transition
 
 import (
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite/blend"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite/blend"
 )
 
 // Wipe reveals B behind a moving straight edge travelling in Dir. Softness is

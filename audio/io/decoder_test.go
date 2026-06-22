@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	audioio "github.com/mowshon/moviego/audio/io"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
+	audioio "github.com/mowshon/moviego/v2/audio/io"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // TestDecodeSine decodes a generated sine WAV and checks the channel/rate, that

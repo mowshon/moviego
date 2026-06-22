@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/render"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/render"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // TestWriteVideoMuxesAudio exports a clip that carries an audio sidecar and

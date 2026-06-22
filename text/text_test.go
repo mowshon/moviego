@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // opaqueCount counts pixels with a non-zero alpha in an RGBA frame.

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/composite"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/composite"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // TestConcatChainSelectsByTime: a same-size chain plays each child in its own

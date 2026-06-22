@@ -179,7 +179,7 @@ incoming clip to keep the summed signal power flat (linear fades dip ~3 dB at
 the midpoint):
 
 ```go
-import audiofx "github.com/mowshon/moviego/audio/fx"
+import audiofx "github.com/mowshon/moviego/v2/audio/fx"
 
 out := audiofx.EqualPowerFadeOut(clipA, overlap)
 in  := audiofx.EqualPowerFadeIn(clipB, overlap)

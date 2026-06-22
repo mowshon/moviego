@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/examples/internal/assets"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/examples/internal/assets"
 )
 
 func main() {

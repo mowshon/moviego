@@ -3,8 +3,8 @@ package video
 import (
 	"context"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // ColorNode is a generated solid-color source, commonly a composite background.

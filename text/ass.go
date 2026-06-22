@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // NewSubtitlesFromASS loads an .ass/.ssa file and builds a subtitles clip over

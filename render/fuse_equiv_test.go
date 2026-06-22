@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/effect"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/internal/genmedia"
-	"github.com/mowshon/moviego/render"
-	"github.com/mowshon/moviego/video"
-	videoio "github.com/mowshon/moviego/video/io"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/effect"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
+	"github.com/mowshon/moviego/v2/render"
+	"github.com/mowshon/moviego/v2/video"
+	videoio "github.com/mowshon/moviego/v2/video/io"
 )
 
 // TestFFmpegOnlyApproxGoRender verifies that a graph the planner fuses

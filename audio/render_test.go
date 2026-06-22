@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // cancelOnPull wraps a clip and cancels the render context the first time it is

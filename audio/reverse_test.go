@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // TestReverseFlipsSamples reverses a ramp (sample value == frame index) and

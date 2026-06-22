@@ -1,6 +1,6 @@
 package imagex
 
-import "github.com/mowshon/moviego/clip"
+import "github.com/mowshon/moviego/v2/clip"
 
 // SplitAlpha separates an RGBA frame into a new RGB24 frame and a Gray8 mask.
 // The mask carries the source alpha channel (0 transparent, 255 opaque).

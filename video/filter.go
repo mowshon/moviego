@@ -1,6 +1,6 @@
 package video
 
-import "github.com/mowshon/moviego/ffmpeg"
+import "github.com/mowshon/moviego/v2/ffmpeg"
 
 // Filterable is the optional capability a graph node implements to advertise an
 // FFmpeg filter-chain fragment to the fusion planner.

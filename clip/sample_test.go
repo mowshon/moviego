@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // TestSampleRoundTrip verifies SampleIndex is a left inverse of SampleTime for

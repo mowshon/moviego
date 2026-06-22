@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	mgo "github.com/mowshon/moviego"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/imagex"
-	"github.com/mowshon/moviego/internal/genmedia"
+	mgo "github.com/mowshon/moviego/v2"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/imagex"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // TestCompositeExport builds a layered composite (black background + a smaller

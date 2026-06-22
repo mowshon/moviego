@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/ffmpeg"
-	"github.com/mowshon/moviego/internal/genmedia"
+	"github.com/mowshon/moviego/v2/ffmpeg"
+	"github.com/mowshon/moviego/v2/internal/genmedia"
 )
 
 // TestStreamCopyTrimRoundTrip cuts a segment with stream copy and confirms the

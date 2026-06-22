@@ -3,10 +3,10 @@ package effect
 import (
 	"context"
 
-	"github.com/mowshon/moviego/audio"
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/keyframe"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/audio"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/keyframe"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // ErrNoKeyframes reports an animated effect built with an empty keyframe track:

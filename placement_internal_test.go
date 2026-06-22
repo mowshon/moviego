@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/composite"
+	"github.com/mowshon/moviego/v2/composite"
 )
 
 // TestPlacementSurvivesEffectChain verifies the review fix: a Position/Layer set

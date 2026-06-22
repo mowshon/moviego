@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mowshon/moviego/clip"
+	"github.com/mowshon/moviego/v2/clip"
 )
 
 // countingLoader returns a fresh solid frame per path and records how many

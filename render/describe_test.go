@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mowshon/moviego/clip"
-	"github.com/mowshon/moviego/render"
-	"github.com/mowshon/moviego/video"
+	"github.com/mowshon/moviego/v2/clip"
+	"github.com/mowshon/moviego/v2/render"
+	"github.com/mowshon/moviego/v2/video"
 )
 
 // colorClip builds a finite-duration solid-color clip at 24fps.
